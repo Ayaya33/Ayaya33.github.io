@@ -1,3 +1,33 @@
 a {
     color: green;
   }
+  .header, .footer {
+    
+    background: #ccc;
+    text-align: center;
+}
+ 
+
+.body {
+    
+    display: flex;
+}
+.body {
+    flex-direction: row-reverse;
+    
+}
+.main {
+    display: flex
+    
+    flex=auto;
+}
+
+.aside {
+    flex: 1;
+    background: red;
+}
+
+.article {
+    flex: 3;
+    background: blue;
+}
