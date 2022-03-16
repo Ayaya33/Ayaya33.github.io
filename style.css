@@ -13,7 +13,7 @@ a {
     display: flex;
 }
 .body {
-    flex-direction: row-reverse;
+    flex-direction: column;
     
 }
 .main {
