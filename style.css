@@ -1,33 +1,24 @@
 a {
     color: green;
   }
-  .header, .footer {
-    
-    background: #ccc;
-    text-align: center;
-}
- 
 
-.body {
-    
+
+body {
     display: flex;
-}
-.body {
     flex-direction: column;
-    
-}
-.main {
-    display: flex
-    
-    flex=auto;
 }
 
-.aside {
+main {
+    display: flex;
+    flex: auto;  
+}
+
+aside {
     flex: 1;
     background: red;
 }
 
-.article {
+article {
     flex: 3;
     background: blue;
 }
