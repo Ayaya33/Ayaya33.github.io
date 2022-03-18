@@ -11,15 +11,13 @@ main {
 aside {
     flex: 1;
     background-color:transparent;
-    /* background: red; */
+    
 }
 
 article {
     flex: 5;
     background-color:transparent;
     color:rgb(173, 136, 72)
-    
-    /* background: blue; */
 }
 .title{
     display: flex;
@@ -29,7 +27,7 @@ article {
     
 }
 .title1{
-
+    
     font-size: 14px;
     height:300px;
 	width:400px;
@@ -49,9 +47,12 @@ article {
     color:rgb(173, 136, 72)
 	
 }
+
 footer{
     color:rgb(173, 136, 72)
 }
+
 .yellowline{
     color:rgb(173, 136, 72)
 }
+
