@@ -3,6 +3,8 @@
 <html lang="zh-CN">
 <meta charset="utf-8">
 <head>
+    
+    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
     <meta name="referrer" content="never">
     <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
@@ -25,11 +27,9 @@
                     <h2>腕豪</h2>
                     <h3>瑟提</h3>
                 </div>
+                
                 <div class="yellowline">
-                <h1>__________________________________________________________________________</h1>
-                </div>
-                <div class="yellowline">
-                    <h1>__________________________________________________________________________</h1>
+                    <p>————————————————————————————————————————————————————————————————————————————————————————————</p>
                     </div>    
                 <div class="title1">
                     
@@ -75,11 +75,16 @@
             </article>
         </main>
         <div class="yellowline">
-            <h1>__________________________________________________________________________</h1>
+            <p>————————————————————————————————————————————————————————————————————————————————————————————</p>
             </div>
-            <div class="yellowline">
-                <h1>__________________________________________________________________________</h1>
                 </div>
+                <div id="waline"></div>
+                <script>
+                    Waline({
+                      el: '#waline',
+                      serverURL: 'https://ayaya33-nfgmane3o-ayaya33.vercel.app/',
+                    });
+                  </script>
         <footer>
             <style type="text/css">
                 a:link {
@@ -102,7 +107,15 @@
         by <a href="https://www.zhihu.com/people/jiang-bao-ha-3" target="_blank">胡胡</a> for <a href="https://www.adalab.cn" target="_blank">Adalab</a>
         </footer>
         </body>
-       
+    </div>
+    <div id="waline"></div>
+    <script>
+        Waline({
+          el: '#waline',
+          serverURL: 'https://ayaya33-nfgmane3o-ayaya33.vercel.app/',
+        });
+    </script>
+      
 
 
 </html>
